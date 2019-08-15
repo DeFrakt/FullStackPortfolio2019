@@ -262,13 +262,13 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin: 10px;
+    margin: 10px 25px 10px 0;
 }
 
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: #fff;
     font-size: 11px;
     font-weight: bold;
 }
@@ -281,9 +281,31 @@ nav li a {
 .bg-nav ul {
     padding: 10px 10px 10px 0px;
 }
+.bg-nav li a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #444;
+    font-size: 11px;
+    font-weight: bold;
+
+}
+
+.bg-nav li > a:focus {
+    color: #444;
+    text-decoration: none;
+}
+
+.bg-nav li > a:hover {
+    color: #102d79;
+    text-decoration: none;
+}
+
+.bg-nav li > a.active {
+    color: #102d79;
+}
 
 a:focus {
-    color: #444;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -301,7 +323,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg.png);
+    background: url(../img/bg-cover-purple.png);
     background-size: cover;
     height: 100vh;
 }
