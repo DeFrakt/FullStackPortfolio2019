@@ -372,7 +372,8 @@ a.active {
 
 #skills {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #f3f3f3;
+    border-radius: 100px;
 }
 
 .skills-row {
@@ -710,7 +711,8 @@ a.active {
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #f3f3f3;
+    border-radius: 100px 100px 0px 0px;
 }
 
 #contact-form input,
